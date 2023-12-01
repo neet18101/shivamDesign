@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    /* border: 2px solid red; */
+    font-family: 'Inter';
+}
+
+.nav__toggle {
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    height: 78px;
+    flex-shrink: 0;
+    padding-left: 39px;
+    padding-right: 57px;
+}
+
+.nav__brand__logo {
+    margin-right: 4px;
+    margin-left: 40px;
+    width: 25.841px;
+    height: 30.661px;
+}
+
+.nav__brand span {
+    color: #000;
+    font-family: Inter;
+    font-size: 19.731px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97.023%;
+    /* 19.143px */
+    letter-spacing: -0.395px;
+}
+
+.user__icon {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid rgb(89, 87, 87);
+}
+
+.user #user__name {
+    width: 69px;
+    height: 16.361px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 15.109px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-left: 4px;
+    line-height: 97.023%;
+    /* 14.659px */
+    letter-spacing: 0.076px;
+}
+
+#user__name {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown__item {
+    color: rgba(38, 38, 38, 0.70);
+    font-family: Inter;
+    font-size: 15.109px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 14.659px */
+    letter-spacing: 0.076px;
+    margin: 10px 0;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 20px;
+    padding: 20px;
+    width: 247px;
+    height: 331px;
+    flex-shrink: 0;
+}
+
+.log__out {
+    color: rgba(94, 23, 235, 0.70);
+    font-family: Inter;
+    font-size: 15.109px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 14.659px */
+    letter-spacing: 0.076px;
+}
+
+.up__plan {
+    color: #5E17EB;
+    font-family: Inter;
+    font-size: 15.11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 97.023%;
+    margin: 0 10px;
+    margin-right: 20px;
+    /* 14.66px */
+    letter-spacing: 0.076px;
+}
+
+.nav__register {
+    color: #000;
+    width: 111px;
+    height: 28px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 15.109px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 97.023%;
+    /* 14.659px */
+    letter-spacing: 0.076px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(217, 217, 217, 0.00);
+}

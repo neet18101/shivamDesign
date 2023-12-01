@@ -15,7 +15,46 @@
 </head>
 
 <body>
-    
+    <nav class="navbar container-fluid  d-flex justify-content-between">
+
+        <div class="nav__left d-flex justify-content-between align-items-center">
+            <div class="nav__toggle d-flex align-items-center">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <a href="index.html" class="nav__brand d-flex align-items-center">
+                <img src="img/brand.png" class="nav__brand__logo d-flex align-items-center"
+                    alt="brand logo"><span>BachelorsCave</span>
+            </a>
+        </div>
+
+        <div class="nav__right d-flex justify-content-between align-items-center">
+            <div class="user d-flex justify-content-start   align-items-center">
+                <a href="#">
+                    <img src="img/account-circle.png" class="user__icon" alt="user account">
+                </a>
+                <div class="dropdown">
+                    <button id="user__name" class="d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Anas <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown__item" href="#">My Profile</a></li><hr>
+                        <li><a class="dropdown__item" href="#">Manage Subscription</a></li><hr>
+                        <li><a class="dropdown__item" href="#">Tenant Space</a></li><hr>
+                        <li><a class="dropdown__item" href="#">Shortlist</a></li><hr>
+                        <li><a class="dropdown__item" href="#">Seen Properties</a></li><hr>
+                        <li><a class="dropdown__item" href="#">Owners you contacted</a></li><hr>
+                        <li><a class="dropdown__item log__out" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+                <!-- <h4 >Anas  </h4> -->
+            </div>
+            <a href="#" class="up__plan">Upgrade Plan</a>
+            <button class="nav__register">
+                Register
+            </button>
+        </div>
+    </nav>
 
 
 
