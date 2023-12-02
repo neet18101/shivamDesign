@@ -282,8 +282,9 @@ letter-spacing: -0.345px;
     padding: 17px 37px;
 }
 
-.user__name h4 {
-    width: 120px;
+.user__name input {
+    /* width: 125px; */
+    /* width: 225px; */
     color: #000;
     font-family: Inter;
     font-size: 23px;
@@ -292,6 +293,15 @@ letter-spacing: -0.345px;
     line-height: 97.023%;
     /* 22.315px */
     letter-spacing: -0.345px;
+    border: none;
+    outline: none;
+}
+
+.name__edit{
+    border: 2px solid #5E17EB !important;
+    border-radius: 4px;
+
+    outline: none;
 }
 
 .user__icon img{
@@ -300,12 +310,13 @@ letter-spacing: -0.345px;
 
 .user__name{
     align-items: center;
-    width: 120px;
+    width: 310px;
     margin-left: 13.5px;
 
 }
 
 .user__name p {
+    width: 54px;
     color: #707070;
     font-family: Inter;
     font-size: 17px;
@@ -314,7 +325,7 @@ letter-spacing: -0.345px;
     line-height: 97.023%;
     /* 16.494px */
     letter-spacing: -0.255px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .user__edit{
@@ -329,6 +340,10 @@ flex-shrink: 0;
 letter-spacing: -0.195px;border-radius: 3px;
 border: 0.4px solid #CBCBCB;
 background: #FFF;
+}
+
+.user__edit:active{
+    transform: scale(0.9);
 }
 
 .user__edit i{
