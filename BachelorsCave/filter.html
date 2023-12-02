@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CSS --CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICONS CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- CSS LINK   -->
+    <link rel="stylesheet" href="style.css">
+    <title>BachelorsCave</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand d-flex justify-content-between" id="nav-bar">
+
+        <div class="nav__left d-flex justify-content-between align-items-center">
+            <div class="nav__toggle d-flex align-items-center">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <a href="index.html" class="nav__brand d-flex align-items-center">
+                <img src="img/brand.png" class="nav__brand__logo d-flex align-items-center" alt="brand logo">
+            </a>
+        </div>
+
+        <div class="nav__mid d-flex justify-content-between align-items-center">
+            <div class="nav__rent d-flex align-items-center justify-content-between">
+                <button class="nav__mid__btn">Rent</button>
+                <p class="nav__mid__description ">City, neighborhood or address</p>
+            </div>
+            <div class="nav__mid__search  d-flex align-items-center justify-content-between">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="nav__right d-flex justify-content-between align-items-center">
+            <div class="">
+                <select class=" nav__select" aria-label="Default select example">
+                    <option selected>I’m an owner</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <button class="nav__register">
+                Register
+            </button>
+        </div>
+    </nav>
+
+    <div class="filter__container">
+        <div class="category">
+            <h3>Category</h3>
+            <div class="check__box">
+                <input type="checkbox" id="Apartments chek__b" name="Apartments" value="Apartments">
+                <label for="Apartments">Apartments</label><br>
+                <input type="checkbox" id="house chek__b" name="house" value="house">
+                <label for="house">Independent house</label><br>
+                <input type="checkbox" id="villa chek__b" name="villa" value="villa">
+                <label for="villa">Gated community villa</label><br>
+            </div>
+        </div>
+        <div class="bhk">
+            <h3>BHK Type</h3>
+            <div class=" d-flex justify-content-start align-items-between flex-wrap">
+                <button class="bhk__box bhk__click">1 Bhk</button>
+                <button class="bhk__box">2 Bhk</button>
+                <button class="bhk__box">3 Bhk</button>
+                <button class="bhk__box">4 Bhk</button>
+                <button class="bhk__box">5 Bhk</button>
+            </div>
+        </div>
+
+        <div class="furnishing">
+            <h3>Furnishing</h3>
+            <div class="d-flex justify-content-start align-items-between flex-wrap">
+                <div class="fur__b d-flex justify-content-between align-items-center">
+                    <input type="checkbox" id="full chek__b" name="Apartments" value="full">
+                    <label for="full">Full</label>
+                </div>
+                <div class="fur__b d-flex justify-content-between align-items-center">
+                    <input type="checkbox" id="semi chek__b" name="semi" value="semi">
+                    <label for="semi">Semi</label>
+                </div>
+                <div class="fur__b d-flex justify-content-between align-items-center">
+                    <input type="checkbox" id="none chek__b" name="none" value="none">
+                    <label for="none">None</label>
+                </div>
+            </div>
+        </div> 
+
+        <div class="preferred">
+            <h3>Preferred</h3>
+            <div class="d-flex justify-content-start align-items-between flex-wrap">
+                <div class="fur__b d-flex justify-content-between align-items-center">
+                    <input type="checkbox" id="full chek__b" name="Apartments" value="full">
+                    <label for="full">Full</label>
+                </div>
+                <div class="fur__b d-flex justify-content-between align-items-center">
+                    <input type="checkbox" id="semi chek__b" name="semi" value="semi">
+                    <label for="semi">Semi</label>
+                </div>
+            </div>
+        </div>
+        <div class="parking">
+            <h3>Parking</h3>
+            <div class="d-flex justify-content-start  flex-column">
+                <div class="fur__b d-flex  align-items-center">
+                    <input type="checkbox" id="two chek__b" name="two" value="full">
+                    <label for="two">2 Wheeler</label>
+                </div>
+                <div class="fur__b d-flex  align-items-center">
+                    <input type="checkbox" id="four chek__b" name="four" value="four">
+                    <label for="four">4 Wheeler</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="availability">
+            <h3>Availability</h3>
+            <div class="d-flex justify-content-start  flex-column">
+                <div class="fur__b d-flex  align-items-center">
+                    <input type="checkbox" id="immediate chek__b" name="immediate" value="immediate">
+                    <label for="full">Immediate</label>
+                </div>
+                <div class="fur__b d-flex  align-items-center">
+                    <input type="checkbox" id="days15 chek__b" name="days15" value="days15">
+                    <label for="semi">With in 15 Days</label>
+                </div>
+                <div class="fur__b d-flex  align-items-center">
+                    <input type="checkbox" id="days30 chek__b" name="days30" value="days30">
+                    <label for="semi">With in 30 Days</label>
+                </div>
+                <div class="fur__b d-flex  align-items-center">
+                    <input type="checkbox" id="after30 chek__b" name="after30" value="after30">
+                    <label for="after30">After 30 Days</label>
+                </div>
+            </div>
+        </div>
+
+        <button class="filter__btn">
+            Apply filters
+        </button>
+    </div>
+
+    <!-- FONT-AWESOME --CDN  -->
+    <script src="https://kit.fontawesome.com/066eb9a56c.js" crossorigin="anonymous"></script>
+
+
+    <!-- BOOTSTRAP JS --CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
