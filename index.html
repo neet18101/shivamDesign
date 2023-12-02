@@ -33,17 +33,23 @@
                     <img src="img/account-circle.png" class="user__icon" alt="user account">
                 </a>
                 <div class="dropdown">
-                    <button id="user__name" class="d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <button id="user__name" class="d-flex justify-content-between align-items-center" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Anas <i class="fa-solid fa-chevron-down"></i>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown__item" href="#">My Profile</a></li><hr>
-                        <li><a class="dropdown__item" href="#">Manage Subscription</a></li><hr>
-                        <li><a class="dropdown__item" href="#">Tenant Space</a></li><hr>
-                        <li><a class="dropdown__item" href="#">Shortlist</a></li><hr>
-                        <li><a class="dropdown__item" href="#">Seen Properties</a></li><hr>
-                        <li><a class="dropdown__item" href="#">Owners you contacted</a></li><hr>
+                        <li><a class="dropdown__item" href="#">My Profile</a></li>
+                        <hr>
+                        <li><a class="dropdown__item" href="#">Manage Subscription</a></li>
+                        <hr>
+                        <li><a class="dropdown__item" href="#">Tenant Space</a></li>
+                        <hr>
+                        <li><a class="dropdown__item" href="#">Shortlist</a></li>
+                        <hr>
+                        <li><a class="dropdown__item" href="#">Seen Properties</a></li>
+                        <hr>
+                        <li><a class="dropdown__item" href="#">Owners you contacted</a></li>
+                        <hr>
                         <li><a class="dropdown__item log__out" href="#">Sign out</a></li>
                     </ul>
                 </div>
@@ -56,8 +62,158 @@
         </div>
     </nav>
 
+    <section class="container account">
+        <h3 class="account__title">
+            Manage my account
+        </h3>
+
+        <div class="account__detail">
+            <div>
+                <div class="account__detail__menu">
+                    <h4 class="detail__menu__item">My Profile</h4>
+                    <h4 class="detail__menu__item">Tenant space</h4>
+                    <h4 class="detail__menu__item">Shortlist</h4>
+                    <h4 class="detail__menu__item">My Payments</h4>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <div class="booking">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Oneway</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Outstation</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">Local City</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-transfer-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-transfer" type="button" role="tab"
+                                    aria-controls="pills-transfer" aria-selected="false">Airport Transfer</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active " id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="home-form">
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup</label>
+                                        <input type="text" name="" id="" placeholder="Pickup Location">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Drop</label>
+                                        <input type="text" name="" id="" placeholder="Drop Location">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Date</label>
+                                        <input type="date" name="" id="">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Time</label>
+                                        <input type="time" name="" id="">
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <label for="">Mobile Number*</label>
+                                    <input type="number" name="" id="" placeholder="Your Mobile Number">
+                                    <button class="btn">Search Cab</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="home-form">
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup</label>
+                                        <input type="text" name="" id="" placeholder="Pickup Location">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Drop</label>
+                                        <input type="text" name="" id="" placeholder="Drop Location">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Date</label>
+                                        <input type="date" name="" id="">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Time</label>
+                                        <input type="time" name="" id="">
+                                    </div>
+                                    <!-- <div class="formbox">
+                                        <label for class="form-lable">Return Date</label>
+                                        <input type="date" name="" id="">
+                                    </div> -->
+                                </div>
+                                <div class="number">
+                                    <label for="">Mobile Number*</label>
+                                    <input type="number" name="" id="" placeholder="Your Mobile Number">
+                                    <button class="btn">Search Cab</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">
+                                <div class="home-form">
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Packages</label>
+                                        <input type="text" name="" id="" placeholder="Your Package">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Date</label>
+                                        <input type="date" name="" id="">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Time</label>
+                                        <input type="time" name="" id="">
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <label for="">Mobile Number*</label>
+                                    <input type="number" name="" id="" placeholder="Your Mobile Number">
+                                    <button class="btn">Search Cab</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-transfer" role="tabpanel"
+                                aria-labelledby="pills-transfer-tab">
+                                <div class="home-form">
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Select</label>
+                                        <input type="text" name="" id="" placeholder="Airport">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Date</label>
+                                        <input type="date" name="" id="">
+                                    </div>
+                                    <div class="formbox">
+                                        <label for class="form-lable">Pickup Time</label>
+                                        <input type="time" name="" id="">
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <label for="">Mobile Number*</label>
+                                    <input type="number" name="" id="" placeholder="Your Mobile Number">
+                                    <button class="btn">Search Cab</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
     <!-- FONT-AWESOME --CDN  -->
